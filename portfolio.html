@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zack Lim</title>
+  <style>
+    /* Reset and basics */
+    
+    body { font-family: Arial, sans-serif; line-height: 1.6; scroll-behavior: smooth; margin: 0 auto;}
+
+    /* Navigation bar */
+    nav { position: fixed; top: 0; width: 100%; background: #333; padding: 10px 20px; z-index: 1000; }
+    nav ul { list-style: none; display: flex; justify-content: center; }
+    nav ul li { margin: 0 15px; }
+    nav ul li a { color: #fff; text-decoration: none; font-weight: bold; transition: color 0.3s; }
+    nav ul li a:hover { color: #ff9800; }
+
+    /* Sections */
+    section { min-height: 100vh; padding: 80px 20px; display: flex; flex-direction: column; justify-content: center; align-items: center; }
+    #home { background: #f4f4f4; }
+    #about { background: #e2e2e2; }
+    #projects { background: #d0d0d0; }
+    #contact { background: #bfbfbf; }
+
+    h1, h2 { margin-bottom: 20px; }
+    p { max-width: 600px; text-align: center; }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Sections -->
+  <section id="home">
+    <h1>Welcome to My Portfolio</h1>
+    <p>This is the home section where you can put a short introduction.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Write about yourself here. Your background, skills, and what makes you unique as a developer or professional.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>Showcase your work here. You can list your projects, add images, or link to demos and GitHub repositories.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Provide your contact details here such as email, phone, or links to social media accounts.</p>
+  </section>
+
+</body>
+</html>
